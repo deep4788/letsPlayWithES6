@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 "use strict";
 
-
-//let keyword makes you define block scope variable
+//let keyword lets you define block scope variable
 {
     let localVar = 4;
 }
@@ -13,7 +12,7 @@ catch(err) {
     console.error("ERROR: ", err.message);
 }
 
-//const keyword makes you define block scope variable
+//const keyword lets you define constant variable
 const constantVar = 4;
 try {
     constantVar = 5;
@@ -48,7 +47,7 @@ for(let tRes of testResults) {
 }
 
 //Template Literals
-let name = 'Deep';
+let name = "Deep";
 let myDesc = `My name is ${name}.`;
 console.log(myDesc);
 
@@ -59,7 +58,7 @@ let [,, third] = names;
 console.log(`${first}, ${second} and ${third}`);
 
 let person = {
-    myname: 'Deep',
+    myname: "Deep",
     age: 28
 };
 let {myname, age} = person;
