@@ -7,3 +7,4 @@ Here you will find code separated into various files based on different sections
 - moduleAndClasses.js
 - extensionsToBuiltInObjs.js
 - mapsAndSets.js
+- promises.js
